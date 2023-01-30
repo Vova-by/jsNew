@@ -261,7 +261,8 @@ function logPerson(s, name, age) {
    }
    return `${s[0]}${name}${s[1]}${age}${s[2]}`
 }
-
+// как сделать так чтобы в случае если age < 0 изменить S[2]
+ 
 const personName = 'Влад'
 const personName2 = 'Максим'
 const personAge = 26
